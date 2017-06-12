@@ -1,0 +1,23 @@
+{
+	"name":"Angle",
+	"children": [
+		{
+			"name":"EqualSidedPolygonAngles",
+			"weight":80,
+			"children": [
+				{
+					"name":"ThinksToInvertAngle",
+					"weight":60
+				},
+				{
+					"name":"DontInvertAngle",
+					"weight":40
+				}
+			]
+		},
+		{
+			"name":"DontUnderstandEqualSidedPolygon",
+			"weight":20
+		}
+	]
+}

@@ -1,0 +1,11 @@
+[
+	"strategy",
+	"repeat",
+	"repeatBody",
+	"color",
+	"angle",
+	"angleInvariance",
+	"leftRight",
+	"moveAmount",
+	"nesting"
+]
