@@ -6,7 +6,20 @@
 			"weight": 50,
 			"children": [
 				{
-					"name": ""
+					"name": "UnderstandNestedMultipleShapes",
+					"weight": 60
+				},
+				{
+					"name": "DontUnderstandNestedMultipleShapes",
+					"weight": 20
+				},
+				{
+					"name": "UnderstandSize",
+					"weight": 70
+				},
+				{
+					"name": "DontUnderstandSize",
+					"weight": 30
 				}
 			]
 		}

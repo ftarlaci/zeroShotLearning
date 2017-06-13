@@ -1,0 +1,40 @@
+{
+	"name": "ForLoop",
+	"children": [
+	  {
+	  	"name": "GetLoops",
+	  	"weight": 60,
+	  	"children": [
+	  		{
+	  			"name": "GetRepeat", 
+	  			"weight": 60
+	  		},
+	  		{
+	  			"name": "DontGetRepeat", 
+	  			"weight": 40
+	  		},
+	  		{
+	  			"name": "GetDifferentSideCount", // for each nested shape in the polygon
+	  			"weight": 60
+	  		},
+	  		{
+	  			"name": "DontGetSideCount",
+	  			"weight": 40
+	  		},
+	  		{
+	  			"name": "GetArithmeticOnSides",
+	  			"weight": 65
+	  		},
+	  		{
+	  			"name": "DontGetArithmeticOnSides",
+	  			"weight": 35
+	  		}
+	  	]
+	  },
+
+	  {
+	  	"name": "DontgetLoops",
+	  	"weight": 40
+	  }
+	]
+}

@@ -7,5 +7,7 @@
 	"strategy",
 	"drawPolygon",
 	"leftRight",
-	"invariances"
+	"invariances",
+	"variables",
+	"functions"
 ]

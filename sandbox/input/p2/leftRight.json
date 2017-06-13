@@ -1,0 +1,13 @@
+{
+	"name":"LeftRight",
+	"children": [
+		{
+			"name":"LeftRightConfusion",
+			"weight":40
+		},
+		{
+			"name":"NoLeftRightConfusion",
+			"weight":60
+		}
+	]
+}
