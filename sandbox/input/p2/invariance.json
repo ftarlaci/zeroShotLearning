@@ -1,0 +1,15 @@
+{
+	"name": "Invariance",
+	"children": [
+
+		{
+			"name":"Regular",
+			"weight": 5
+		},
+		{
+			"name":"Angle360Invariance",
+			"weight": 95
+		}
+
+	]
+}

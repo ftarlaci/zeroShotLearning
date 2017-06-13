@@ -2,25 +2,32 @@
 	"name":"Comprehension",
 	"children": [ 
 		{
-			"name": "",
+			"name": "GetComprehension",
 			"weight": 50,
 			"children": [
 				{
-					"name": "UnderstandNestedMultipleShapes",
+					"name": "UnderstandNestedVariousShapes",
 					"weight": 60
-				},
-				{
-					"name": "DontUnderstandNestedMultipleShapes",
-					"weight": 20
 				},
 				{
 					"name": "UnderstandSize",
 					"weight": 70
 				},
+			]
+		},
+		{
+			"name": "NoComprehension",
+			"weight": 50,
+			"children": [
+				{
+					"name": "DontUnderstandNestedVariousShapes",
+					"weight": 20
+				},
 				{
 					"name": "DontUnderstandSize",
 					"weight": 30
 				}
+
 			]
 		}
 	]

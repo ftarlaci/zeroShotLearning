@@ -3,28 +3,24 @@
 	"children": [
 		{
 		  "name": "CanDifferentiateInnerOuter", // knows which shape to draw first
-		   "weight": 60
-	  	},
-	  	{
+		   "weight": 60,
+		   "children": [
+		   		{
+	  				"name": "GetSequenceAndLoop",
+	  				"weight": 70
+	  			},
+	  			{
+	  				"name": "NotConfusedByLoops",
+	  				"weight": 50	
+	  			}
+		   ]
+		},
+		 {
 	  		"name": "CannotDifferentiateInnerOuter",
-	  		"weight": 40
+			"weight": 40
 	  	},
-	  	{
-	  		"name": "GetSequenceAndLoop",
-	  		"weight": 70
-	  	},
-	  	{
-	  		"name": "DontgetSequenceAndLoop",
-	  		"weight": 30
-	  	},
-	  	{
-	  		"name": "ConfusedByLoops",
-	  		"weight": 50
-	  	},
-	  	{
-	  		"name": "NotConfusedByLoops",
-	  		"weight": 50	
-	  	}
-	]
+
+	 ]
 }
 
+	  

@@ -1,0 +1,14 @@
+{
+	"name": "LevelVideos",
+	"children": [
+		{
+			// each level and each new algrorithm has a short video explaining the concept or tool. If the student skips the video, they might miss information that can be significant in their understanding of the level. 
+
+			"name": "SkippedVideo", 
+			"weight": 50,
+		},
+		{
+			"name": "DidNotSkipVideo",
+			"weight": 50
+		}
+	]

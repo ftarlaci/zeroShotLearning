@@ -1,0 +1,26 @@
+{
+	// Variables is introduced in Lesson 11, The Artist 3, level 6. 
+	"name": "Variables",
+	"children": [
+		{
+			"name": "GetVariables",
+			"weight": 65,
+			"children": [
+
+				{
+					"name": "GetFunctionsAndCounter",
+					"weight": 75
+				},
+				{
+					"name": "DontGetFunctionsAndCounter",
+					"weight": 20
+				}
+
+			]
+		},
+		{
+			"name": "DontGetVariables",
+			"weight": 35
+		}
+	]
+}

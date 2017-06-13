@@ -1,0 +1,39 @@
+{
+	"name": "DrawPolygon",
+	"children": [
+		{
+		"name": "CanDrawPolygon",
+		"weight": 80,
+		"children": [
+			{
+				"name": "UnderstoodCounter",
+				"weight": 80,
+				"children": [
+					{
+						"name": "UnderstoodLoop",
+						"weight": 60,
+					},
+					{
+						"name": "UnderstoodVariables",
+						"weight": 70
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "CannotDrawPolygon",
+		"weight": 25,
+		"children": [			
+	  		{
+	  			"name": "DontGetSequenceAndLoop",
+	  			"weight": 30
+	  		},
+	  		{
+	  			"name": "ConfusedByLoops",
+	  			"weight": 50
+	  		},
+		]
+	}
+]
+}

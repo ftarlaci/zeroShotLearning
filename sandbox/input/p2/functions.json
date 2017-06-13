@@ -1,0 +1,13 @@
+{
+	"name": "Functions",
+	"children": [
+		{
+			"name": "GetFunctions", // functions are introduced in Lesson 11, Artist 3 level 2
+			"weight": 60,
+		}, 
+		{
+			"name": "DontGetFunctions",
+			"weight": 40
+		}
+	]
+}
